@@ -1,4 +1,4 @@
-# Guide_Setup_And_Develop_Odoo
+# How to Setup the Odoo Simple Development Environment
 
 #### Please read this
 - Before you read the following sections, you need a Ubuntu machine (real or virtual machine, it's up to you)
