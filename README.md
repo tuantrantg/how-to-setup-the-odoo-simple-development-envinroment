@@ -48,6 +48,8 @@ http_port = 8569
 
 #### And, how to customize or add the new module to the source???
 - Ask your mentor for help :D
+- Or you can read **the developer document of Odoo** in [here](https://www.odoo.com/documentation/)
 
 #### And, how to use VSCode to debug Odoo???
 - Ask your mentor for help :D
+- Or you can try my guide in [here](https://github.com/tuantrantg/how-to-setup-the-odoo-simple-development-envinroment/blob/master/DEBUG_ODOO_BY_VSCODE.md)
