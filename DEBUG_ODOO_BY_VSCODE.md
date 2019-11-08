@@ -27,7 +27,7 @@
       - I use `"-d"` and `"oc12_local_02"` to specify which database needs to upgrade
       - And because I use the external terminal, so I need to use `"&&"` and `"exit"` to forced close the external terminal when I termniate the debug
 - If you don't need to use the external terminal, just remove `"console": "externalTerminal"`
-- Here is the sample of 2 Odoo debug configuration:
+- Here is the sample of 2 Odoo debug configurations:
 
 ```
 {
