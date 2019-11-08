@@ -2,6 +2,8 @@
 
 #### Please read this
 - Before you read the following sections, you need a Ubuntu machine (real or virtual machine, it's up to you)
+- The Odoo version in this guide is **12.0** or **13.0**
+  - The following steps bellow are the basic steps, you can base on these to build your own way :D
 
 #### Prepare some stuffs
 - Open the terminal
