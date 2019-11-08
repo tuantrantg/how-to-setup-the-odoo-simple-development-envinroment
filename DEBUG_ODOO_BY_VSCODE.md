@@ -78,4 +78,4 @@
 ![](static/img/guide_vscode_04.png)
 
 #### Author's notes
-A ***special thanks*** goes to ***NamNV - Nguyen Van Nam*** who supports me to build the debug configuration in the first step :D
+A ***special thanks*** goes to ***NamNV - Nguyen Van Nam (namnguyenthieniris@gmail.com)*** who supports me to build the debug configuration in the first step :D
