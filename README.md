@@ -55,3 +55,7 @@ http_port = 8569
 #### And, how to use VSCode to debug Odoo???
 - Ask your mentor for help :D
 - Or you can try my guide in [here](https://github.com/tuantrantg/how-to-setup-the-odoo-simple-development-envinroment/blob/master/DEBUG_ODOO_BY_VSCODE.md)
+
+#### So, Can I use Sublime Text to debug Odoo???
+- Ask your mentor for help :D
+- Or you can try my guide in [here](https://github.com/tuantrantg/how-to-setup-the-odoo-simple-development-envinroment/blob/master/DEBUG_ODOO_BY_SUBLIME_TEXT.md)
