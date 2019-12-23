@@ -1,4 +1,4 @@
-# How to Debug Odoo by VSCode
+# How to Debug Odoo by Sublime Text
 
 #### Please read this
 - Before you read the following sections, you need a Ubuntu machine (real or virtual machine, it's up to you)
