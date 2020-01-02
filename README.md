@@ -4,16 +4,18 @@
 - Before you read the following sections, you need a Ubuntu machine (real or virtual machine, it's up to you)
 - The Odoo version in this guide is **12.0** or **13.0**
   - The following steps bellow are the basic steps, you can base on these to build your own way :D
+  - The Odoo **13.0** requires Python >= 3.6, please check & update the Python version to run Odoo **13.0**. You can find the tutorial to upgrade Python 3.6 in the Internet
 
 #### Prepare some stuffs
 - Open the terminal
 - Install some packages
 ```
-sudo apt-get install libxml2-dev libxslt-dev python-dev libsasl2-dev libldap2-dev libssl-dev
+sudo apt-get install libxml2-dev libxslt-dev python-dev python3-dev python-virtualenv libsasl2-dev libldap2-dev libssl-dev
 ```
 - Install git & configure the SSH key in gitlab or github
 - Install pip3 if it doesn't exist
-- Install pew: `pip3 install pew`
+- Install pew: `pip3 install pew` or you can follow [this repo](https://github.com/berdario/pew) to install pew
+  - NOTE: if pew is not in your `$PATH`, please add it to your `$PATH` ;)
 
 #### Prepare the PostgreSQL
 - You can follow any guide to setup this :)
