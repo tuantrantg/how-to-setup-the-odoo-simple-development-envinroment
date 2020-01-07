@@ -15,21 +15,21 @@
 - Install ***the Python debug adapter client*** if you've not installed it yet
   - Go to the menu ***"Debugger > Install Adapters"***, choose the `vscode-python` to install the debug adapter for Python
 
-![](static/img/guide_sublimetext_01.png)
+![](static/img/guide_sublimetext/guide_sublimetext_01.png)
 
 - It's time to create the new debug configuration (likes VSCode)
   - Go to the menu ***"Debugger > Change Configuration"***
   - If you don't have any the debug configurations, let's create the new one by click on the ***Add new configuration***
 
-![](static/img/guide_sublimetext_02.png)
+![](static/img/guide_sublimetext/guide_sublimetext_02.png)
 
   - Here is the sample debug configuration of the Odoo project
 
-![](static/img/guide_sublimetext_03.png)
+![](static/img/guide_sublimetext/guide_sublimetext_03.png)
 
   - And this one is my final debug configuration ;)
 
-![](static/img/guide_sublimetext_04.png)
+![](static/img/guide_sublimetext/guide_sublimetext_04.png)
 
 - In the above image, we will focus ***2 important parameters***: `program` and `args`
   - `program`: This is the path of the `odoo-bin` file of Odoo. If you don't have it, you can NOT run. It's simple :D
@@ -94,4 +94,4 @@
 #### It's time to DEBUGGGGGGGG!!!
 - After you save the debug configuration. you can debug right now by going to the menu ***Debugger > Start***
 
-![](static/img/guide_sublimetext_05.png)
+![](static/img/guide_sublimetext/guide_sublimetext_05.png)

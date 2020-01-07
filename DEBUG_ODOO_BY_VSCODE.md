@@ -11,11 +11,11 @@
 #### Prepare the debug configuration
 - Open your VSCode and open the Debug section
 
-![](static/img/guide_vscode_01.png)
+![](static/img/guide_vscode/guide_vscode_01.png)
 
 - When you create the new debug configuration, VSCode will create the new file named ***launch.json*** (this new file is in `.vscode/`) -> You must input the content to this file. Here is the sample
 
-![](static/img/guide_vscode_02.png)
+![](static/img/guide_vscode/guide_vscode_02.png)
 
 - In the 2nd image, we will focus ***2 important parameters***: `program` and `args`
   - `program`: This is the path of the `odoo-bin` file of Odoo. If you don't have it, you can NOT run. It's simple :D
@@ -73,9 +73,9 @@
 #### It's time to DEBUGGGGGGGG!!!
 - After you save the ***launch.json*** file. you can debug right now :3
 
-![](static/img/guide_vscode_03.png)
+![](static/img/guide_vscode/guide_vscode_03.png)
 
-![](static/img/guide_vscode_04.png)
+![](static/img/guide_vscode/guide_vscode_04.png)
 
 #### Author's notes
-A ***special thanks*** goes to ***NamNV - Nguyen Van Nam (namnguyenthieniris@gmail.com)*** who supports me to build the debug configuration in the first step :D
+A ***special thanks*** goes to ***Nguyen Van Nam - NamNV (namnguyenthieniris@gmail.com)*** who supports me to build the debug configuration in the first step :D
