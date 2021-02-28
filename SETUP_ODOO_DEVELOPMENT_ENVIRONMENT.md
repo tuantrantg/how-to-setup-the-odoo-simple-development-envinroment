@@ -15,7 +15,7 @@
 - Open the terminal
 - Install some packages
 ```
-sudo apt-get install libxml2-dev libxslt-dev python-dev python3-dev python-virtualenv libsasl2-dev libldap2-dev libssl-dev
+sudo apt-get install libxml2-dev libxslt1-dev python-dev-is-python2 python3-dev python3-virtualenv libsasl2-dev libldap2-dev libssl-dev
 ```
 - Install git & configure the SSH key in gitlab or github
 - Install pip3 if it doesn't exist
