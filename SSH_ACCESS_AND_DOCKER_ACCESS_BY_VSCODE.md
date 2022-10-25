@@ -36,7 +36,15 @@
 
 ![](static/img/guide_ssh_docker_vscode/guide_ssh_docker_vscode_05.png)
 
-- NOTICE: If the VSCode can **NOT** recognize the virtual environments in the SSH server/ Docker containers, please go to the menu: ***File > Preferences > Settings*** to open the Settings and add **your virtual environment path** to the ***Python: Venv Path*** section
+- NOTICE: 
+  - If the VSCode can **NOT** recognize the virtual environments in the SSH server/ Docker containers, please go to the menu: ***File > Preferences > Settings*** to open the Settings and add **your virtual environment path** to the ***Python: Venv Path*** section
+  - If you use VSCode + WSL + Docker remember redirect the path to your ./ssh folder at wsl:
+    1. Make sure "Remote – SSH" extension is installed
+    2. Create a bat file in bin folder on your windows(say C:\Users\<username>\bin), put this single line in it
+        `C:\Windows\system32\wsl.exe ssh %*`
+    3. Then, in VSCode settings(installed on Windows ofcourse), set remote.ssh.path to:
+        `C:\Users\<username>\bin\ssh.bat`
+    4. Done, now you'll have the same SSH configuration and credentials in VSCode as WSL
 
 ![](static/img/guide_ssh_docker_vscode/guide_ssh_docker_vscode_06.png)
 
